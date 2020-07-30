@@ -1,6 +1,8 @@
 <p align="center"><img src="https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/banner-redme.png" width="400"></p>
 
-<img src="https://img.shields.io/static/v1?label=laravel&message=framework&color=blue&style=for-the-badge&logo=laravel"/> <img src="https://img.shields.io/static/v1?label=&message=php&color=666&style=for-the-badge&logo=php"/> <img src="https://img.shields.io/static/v1?label&message=JavaScript&color=blue&style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/static/v1?label=laravel&message=framework&color=blue&style=for-the-badge&logo=laravel"/>
+<img src="https://img.shields.io/static/v1?label=&message=php&color=666&style=for-the-badge&logo=php"/>
+<img src="https://img.shields.io/static/v1?label&message=JavaScript&color=blue&style=for-the-badge&logo=javascript"/>
 
 ## Sobre o Teste
 
