@@ -13,10 +13,44 @@ O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, se
 :warning: [Servidor Apache, MySQL - Xampp](https://www.apachefriends.org/pt_br/index.html) :warning: Ou [Nginx, MySql - Laradock(Docker)](https://laradock.io/)
 
 
+## Instalação :arrow_forward:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+###### 1º - No terminal, clone o projeto: 
+```
+git clone https://github.com/neaime/test_kaffa_felipe_neaime.git
+```
 
-## Laravel Sponsors
+###### 2º - Instale o composer
+```
+composer install
+```
+
+###### 3º Gere uma Chave para o projeto
+```
+php artisan key:generate
+```
+
+###### 4º - Crie um banco de dados com o nome que preferir exemplo "kaffa"
+
+###### 5º - Renomei o arquivo .env.example para .env e edite de acordo com o exemplo abaixo
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=kaffa
+DB_USERNAME=root // usuario do banco de dados. Geralmente o usuario é root
+DB_PASSWORD=root // geralmente no xampp ele vem pre-configurado sem senha! no docker você coloca a senha do administrador durante a instalação.
+```
+
+###### 6º - Execute as migrations para criar a tabela no banco de dados
+```
+php artisan migrate
+```
+
+###### 7º - :heavy_check_mark: Tudo pronto, acesse o navegador e digite o endereço do servidor exemplo:
+```
+localhost/test_kaffa_felipe_neaime/public
+```
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
