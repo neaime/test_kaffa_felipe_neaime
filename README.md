@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/banner-redme.png" width="400"></p>
 
-<img src="https://img.shields.io/static/v1?label=laravel&message=framework&color=blue&style=for-the-badge&logo=laravel"/>  <img src="https://img.shields.io/static/v1?label=&message=php&color=666&style=for-the-badge&logo=php"/>  <img src="https://img.shields.io/static/v1?label&message=JavaScript&color=blue&style=for-the-badge&logo=javascript"/>
+<img src="https://img.shields.io/static/v1?label=laravel&message=framework&color=blue&style=for-the-badge&logo=laravel"/>  <img src="https://img.shields.io/static/v1?label=&message=php&color=666&style=for-the-badge&logo=php"/>  <img src="https://img.shields.io/static/v1?label&message=JavaScript&color=blue&style=for-the-badge&logo=javascript"/> <img src="https://img.shields.io/static/v1?label&message=HTML&color=blue&style=for-the-badge&logo=HTML"/> <img src="https://img.shields.io/static/v1?label&message=CSS&color=blue&style=for-the-badge&logo=CSS"/>
 
 ## Sobre o Teste
 
@@ -8,8 +8,8 @@ O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, se
 
 ## :warning: Requisitos para executar o Teste
 
-:warning: [PHP => 7.2](https://www.php.net/downloads)
-:warning: [Composer](https://getcomposer.org/)
+:warning: [PHP => 7.2](https://www.php.net/downloads),
+:warning: [Composer](https://getcomposer.org/),
 :warning: [Servidor Apache, MySQL - Xampp](https://www.apachefriends.org/pt_br/index.html) :warning: Ou [Nginx, MySql - Laradock(Docker)](https://laradock.io/)
 
 
