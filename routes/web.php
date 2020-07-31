@@ -25,4 +25,23 @@ Route::get('/exercise-3', 'RectaglesController@index')->name('exercise-3');
 ** Routes exercise 4
 **/
 Route::get('/exercise-4', 'RectaglesController@exercise4')->name('exercise-4');
-//Route::post('/exercise-3/intersect', 'RectaglesController@intersect')->name('rectangles.intersect');
+
+/**
+** Routes exercise 5
+**/
+Route::get('/exercise-5', 'TodoListController@index')->name('exercise-5');
+Route::get('/exercise-5/getdata', 'TodoListController@getData')->name('getData');
+Route::post('/exercise-5/store', 'TodoListController@store')->name('todo.store');
+Route::delete('/exercise-5/destroy/{id}', 'TodoListController@destroy');
+
+/**
+** Routes exercise 8
+**/
+Route::get('/exercise-8', function () {
+    return view('exercise-8.index');
+});
+
+Route::get('/exercise-9', function () {
+    return view('exercise-9.index');
+});
+

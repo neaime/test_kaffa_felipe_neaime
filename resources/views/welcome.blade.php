@@ -89,6 +89,9 @@
                     <a href="{{ route('cnpj.exercise2') }}">Exercise 2</a>
                     <a href="{{ route('exercise-3') }}">Exercise 3</a>
                     <a href="{{ route('exercise-4') }}">Exercise 4</a>
+                    <a href="{{ route('exercise-5') }}">Exercise 5</a>
+                    <a href="/exercise-8">Exercise 8</a>
+                    <a href="/exercise-9">Exercise 9</a>
                     <!--
                      -->
                 </div>
