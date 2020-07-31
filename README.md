@@ -2,6 +2,22 @@
 
 <img src="https://img.shields.io/static/v1?label=laravel&message=framework&color=blue&style=for-the-badge&logo=laravel"/>  <img src="https://img.shields.io/static/v1?label=&message=php&color=666&style=for-the-badge&logo=php"/>  <img src="https://img.shields.io/static/v1?label&message=JavaScript&color=blue&style=for-the-badge&logo=javascript"/> <img src="https://img.shields.io/static/v1?label&message=HTML&color=blue&style=for-the-badge&logo=HTML"/> <img src="https://img.shields.io/static/v1?label&message=CSS&color=blue&style=for-the-badge&logo=CSS"/>
 
+## Tópicos
+### Tópicos 
+
+:small_blue_diamond: [Sobre o teste](#sobre-o-teste)
+
+:small_blue_diamond: [Requisitospara executar o Teste](#requisitos-para-executar-o-teste)
+
+:small_blue_diamond: [Funcionalidades](#funcionalidades)
+
+:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+
+:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+
+O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, sendo elas PHP, JavaScript e CSS.
+
 ## Sobre o Teste
 
 O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, sendo elas PHP, JavaScript e CSS.
@@ -51,6 +67,10 @@ php artisan migrate
 ```
 localhost/test_kaffa_felipe_neaime/public
 ```
+
+## Funcionalidades
+
+:heavy_check_mark: Funcionalidade 1 
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
