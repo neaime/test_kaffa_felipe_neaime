@@ -1,0 +1,88 @@
+.canvas{
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+}
+.azul{
+  position: absolute;
+  background-color: blue;
+  color: #fff;
+  width: 0px;
+  height: 0px;
+  top: 0px;
+  left:0px;
+  border:1px;
+  text-align: center;
+  vertical-align: middle;
+  display:none;
+}
+.vermelho {
+  position: absolute;
+  background-color: red;
+  color: #fff;
+  left: 0px;
+  width: 0px;
+  top: 0px;
+  height: 0px;
+  vertical-align: middle;
+  display:none;
+}
+
+.green {
+    position: absolute;
+    background-color: green;
+    color: #fff;
+    left: 0px;
+    width: 0px;
+    top: 0px;
+    height: 0px;
+    border: 1px;
+    vertical-align: middle;
+    display:none;
+}
+
+.cinza {
+    position: absolute;
+    background-color: #B8B8B8;
+    color: #fff;
+    left: 0px;
+    width: 0px;
+    top: 0px;
+    height: 0px;
+    border: 1px;
+    vertical-align: middle;
+    display:none;
+}
+
+.laranja {
+    position: absolute;
+    background-color: #EE9F07;
+    color: #fff;
+    left: 0px;
+    width: 0px;
+    top: 0px;
+    height: 0px;
+    border: 1px;
+    vertical-align: middle;
+    display:none;
+}
+
+.preto {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    left: 0px;
+    width: 0px;
+    top: 0px;
+    height: 0px;
+    border: 1px;
+    vertical-align: middle;
+    display:none;
+}
+
+.result{
+    width:50px;
+    height: 180px;
+    color:#000;
+}

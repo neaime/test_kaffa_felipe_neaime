@@ -15,3 +15,14 @@ Route::post('/exercise-1/validate', 'ValidateCNPJController@validateCNPJ')->name
 **/
 Route::get('/exercise-2', 'ValidateCNPJController@exercise2')->name('cnpj.exercise2');
 Route::post('/exercise-2/validate', 'ValidateCNPJController@verifyCnpjTrue')->name('cnpj.verify.true');
+
+/**
+** Routes exercise 3
+**/
+Route::get('/exercise-3', 'RectaglesController@index')->name('exercise-3');
+
+/**
+** Routes exercise 4
+**/
+Route::get('/exercise-4', 'RectaglesController@exercise4')->name('exercise-4');
+//Route::post('/exercise-3/intersect', 'RectaglesController@intersect')->name('rectangles.intersect');
