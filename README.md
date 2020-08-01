@@ -77,10 +77,10 @@ localhost/test_kaffa_felipe_neaime/public
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-2/exercicio-2.gif)
 
 ##:heavy_check_mark: Exercício 3 - Verificar se existe intersecção entre dois retângulos
-![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-3/exercicio-3.gif)
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-3/exericicio-3.gif)
 
 ##:heavy_check_mark: Exercício 4 - Calcular área de intersecção de dois retângulos
-![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-4/exercicio-4.gif)
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-4/exerciocio-4.gif)
 
 ##:heavy_check_mark: Exercício 5 - Cadastrar e deletar tarefas. Durante a execução deve ficar na tela.
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-5/exercicio-5.gif)
