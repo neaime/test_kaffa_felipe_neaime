@@ -45,3 +45,7 @@ Route::get('/exercise-9', function () {
     return view('exercise-9.index');
 });
 
+Route::get('/exercise-7', function () {
+    return view('exercise-7.index');
+});
+
