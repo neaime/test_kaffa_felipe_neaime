@@ -179,5 +179,5 @@ INNER JOIN produtos_has_ordens on produtos_has_ordens.ordens_id=ordens.id GROUP 
 
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/prototipo-ux.gif)
 
-Obrigado
+
 Felipe Neaime
