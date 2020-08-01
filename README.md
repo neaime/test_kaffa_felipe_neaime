@@ -69,8 +69,8 @@ localhost/test_kaffa_felipe_neaime/public
 
 ## Funcionalidades - ScreenShots
 
-####:heavy_check_mark: Exercício 1
-
+##:heavy_check_mark: Exercício 1
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-1/exercicio-1.gif)
 
 
 :heavy_check_mark: Exercício 2
