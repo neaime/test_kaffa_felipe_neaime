@@ -67,9 +67,12 @@ php artisan migrate
 localhost/test_kaffa_felipe_neaime/public
 ```
 
-## Funcionalidades
+## Funcionalidades - ScreenShots
 
-:heavy_check_mark: Exercício 1
+####:heavy_check_mark: Exercício 1
+
+
+
 :heavy_check_mark: Exercício 2
 :heavy_check_mark: Exercício 3
 :heavy_check_mark: Exercício 4
