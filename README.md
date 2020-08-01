@@ -69,19 +69,115 @@ localhost/test_kaffa_felipe_neaime/public
 
 ## Funcionalidades - ScreenShots
 
-##:heavy_check_mark: Exercício 1
+##:heavy_check_mark: Exercício 1 - Verificar se o número digitado se parece com um CNPJ ou não
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-1/exercicio-1.gif)
 
 
-:heavy_check_mark: Exercício 2
-:heavy_check_mark: Exercício 3
-:heavy_check_mark: Exercício 4
-:heavy_check_mark: Exercício 5
-:heavy_check_mark: Exercício 6
-:heavy_check_mark: Exercício 7
-:heavy_check_mark: Exercício 8
-:heavy_check_mark: Exercício 9
+##:heavy_check_mark: Exercício 2 - Validar se um CNPJ é valido ou não
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-2/exercicio-2.gif)
 
+##:heavy_check_mark: Exercício 3 - Verificar se existe intersecção entre dois retângulos
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-3/exercicio-3.gif)
+
+##:heavy_check_mark: Exercício 4 - Calcular área de intersecção de dois retângulos
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-4/exercicio-4.gif)
+
+##:heavy_check_mark: Exercício 5 - Cadastrar e deletar tarefas. Durante a execução deve ficar na tela.
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-5/exercicio-5.gif)
+
+##:heavy_check_mark: Exercício 8 - Criar um diagrama de relacionamento - O Script para criação do banco encontra logo após a imagem. O SELECT para consultar quantos produtos existem em uma nota está no final deste tópico
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/diagrama-de-relacionamento.png)
+
+##### Script para criar a base de dados do exericício 8
+```
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema exercicio_8
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema exercicio_8
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `exercicio_8` DEFAULT CHARACTER SET utf8 ;
+USE `exercicio_8` ;
+
+-- -----------------------------------------------------
+-- Table `exercicio_8`.`produtos`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `exercicio_8`.`produtos` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome_produto` VARCHAR(200) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `exercicio_8`.`clientes`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `exercicio_8`.`clientes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome_cliente` VARCHAR(200) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `exercicio_8`.`ordens`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `exercicio_8`.`ordens` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `clientes_id` INT NOT NULL,
+  PRIMARY KEY (`id`, `clientes_id`),
+  INDEX `fk_ordens_clientes1_idx` (`clientes_id` ASC) ,
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) ,
+  CONSTRAINT `fk_ordens_clientes1`
+    FOREIGN KEY (`clientes_id`)
+    REFERENCES `exercicio_8`.`clientes` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `exercicio_8`.`produtos_has_ordens`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `exercicio_8`.`produtos_has_ordens` (
+  `produtos_id` INT NOT NULL,
+  `ordens_id` INT NOT NULL,
+  PRIMARY KEY (`produtos_id`, `ordens_id`),
+  INDEX `fk_produtos_has_ordens_ordens1_idx` (`ordens_id` ASC) ,
+  INDEX `fk_produtos_has_ordens_produtos_idx` (`produtos_id` ASC) ,
+  CONSTRAINT `fk_produtos_has_ordens_produtos`
+    FOREIGN KEY (`produtos_id`)
+    REFERENCES `exercicio_8`.`produtos` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_produtos_has_ordens_ordens1`
+    FOREIGN KEY (`ordens_id`)
+    REFERENCES `exercicio_8`.`ordens` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+```
+
+##### Script verificar quantos produtos existem em cada ordem
+```
+SELECT ordens.id, COUNT(produtos_has_ordens.ordens_id)
+FROM ordens
+INNER JOIN produtos_has_ordens on produtos_has_ordens.ordens_id=ordens.id GROUP BY id
+```
+
+##:heavy_check_mark: Exercício 9 - Criar um prototipo de UX
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/prototipo-ux.png)
+
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/prototipo-ux.gif)
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
