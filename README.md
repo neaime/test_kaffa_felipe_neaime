@@ -38,14 +38,16 @@ git clone https://github.com/neaime/test_kaffa_felipe_neaime.git
 composer install
 ```
 
-###### 3º Gere uma Chave para o projeto
+###### 3º Renomei o arquivo .env.example para .env
+
+###### 4º Gere uma Chave para o projeto
 ```
 php artisan key:generate
 ```
 
-###### 4º - Crie um banco de dados com o nome que preferir exemplo "kaffa"
+###### 5º - Crie um banco de dados com o nome que preferir exemplo "kaffa"
 
-###### 5º - Renomei o arquivo .env.example para .env e edite de acordo com o exemplo abaixo
+###### 6º - Renomei o arquivo .env.example para .env e edite de acordo com o exemplo abaixo
 ```
 DB_CONNECTION=mysql
 DB_HOST=localhost
@@ -55,12 +57,12 @@ DB_USERNAME=root // usuario do banco de dados. Geralmente o usuario é root
 DB_PASSWORD=root // geralmente no xampp ele vem pre-configurado sem senha! no docker você coloca a senha do administrador durante a instalação.
 ```
 
-###### 6º - Execute as migrations para criar a tabela no banco de dados
+###### 7º - Execute as migrations para criar a tabela no banco de dados
 ```
 php artisan migrate
 ```
 
-###### 7º - :heavy_check_mark: Tudo pronto, acesse o navegador e digite o endereço do servidor exemplo:
+###### 8º - :heavy_check_mark: Tudo pronto, acesse o navegador e digite o endereço do servidor exemplo:
 ```
 localhost/test_kaffa_felipe_neaime/public
 ```
