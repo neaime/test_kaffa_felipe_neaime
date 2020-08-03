@@ -47,7 +47,7 @@ php artisan key:generate
 
 ###### 5º - Crie um banco de dados com o nome que preferir exemplo "kaffa"
 
-###### 6º - Renomei o arquivo .env.example para .env e edite de acordo com o exemplo abaixo
+###### 6º - Altere o arquivo .env de acordo com o exemplo abaixo
 ```
 DB_CONNECTION=mysql
 DB_HOST=localhost
