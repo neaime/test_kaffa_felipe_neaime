@@ -34,9 +34,9 @@ $(document).ready(function (){
         success: function(response) {
             document.getElementById("UTC").innerHTML = "UTC: "+JSON.stringify(response.currentDateTime);
 
-            //Explito a variavel para poder tirar o Z
+            //Explode the variable to remove the Z from the end
             currentDateTime = response.currentDateTime.split('Z');
-            //Em seguida adiciono os segundos e o Z novamente para poder fazer a conversão para a localidade desejada.
+            //Then add the seconds and the Z again to be able to convert to the desired location.
             currentDateTime = currentDateTime[0]+":00.000Z";
 
             data = new Date(currentDateTime).toLocaleString("pt-BR", {timeZone: locate});
@@ -44,15 +44,6 @@ $(document).ready(function (){
             document.getElementById("currentDateTime").innerHTML = locate+": "+data;
             console.log(data);
             console.log(currentDateTime);
-            //console.log(data.toISOString());
-            /*
-            var currentDateTime = response.currentDateTime;
-            currentDateTime = currentDateTime.split('T');
-            utc = currentDateTime[1].split('Z');
-            time = utc[0].split(':');
-            hora = time[0];
-            minuto = time[1];*/
-
         },
         /**
         ** If you have erro inserted the data, print a return on the alert.
