@@ -85,6 +85,12 @@ localhost/test_kaffa_felipe_neaime/public
 ##:heavy_check_mark: Exercício 5 - Cadastrar e deletar tarefas. Durante a execução deve ficar na tela.
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-5/exercicio-5.gif)
 
+##:heavy_check_mark: Exercício 6 - Cliente REST, consumir API http://worldclockapi.com/api/json/utc/now.
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-6/exercicio-6.gif)
+
+##:heavy_check_mark: Exercício 7 - Servidor REST, retorno da API no formato {"currentDateTime":"20190812T14:40Z"}.
+![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img-readme/exercicio-7/exercicio-7.jpg)
+
 ##:heavy_check_mark: Exercício 8 - Criar um diagrama de relacionamento - O Script para criação do banco encontra logo após a imagem. O SELECT para consultar quantos produtos existem em uma nota está no final deste tópico
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/diagrama-de-relacionamento.png)
 
