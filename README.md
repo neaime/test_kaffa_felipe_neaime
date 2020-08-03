@@ -15,8 +15,6 @@
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
 
-O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, sendo elas PHP, JavaScript e CSS.
-
 ## Sobre o Teste
 
 O teste consiste em 9 exercícios, nos quais utilizei 3 linguagens diferente, sendo elas PHP, JavaScript e CSS.
