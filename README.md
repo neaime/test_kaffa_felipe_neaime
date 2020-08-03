@@ -38,7 +38,7 @@ git clone https://github.com/neaime/test_kaffa_felipe_neaime.git
 composer install
 ```
 
-###### 3º Renomei o arquivo .env.example para .env
+###### 3º Renomeie o arquivo .env.example para .env
 
 ###### 4º Gere uma Chave para o projeto
 ```
@@ -94,7 +94,7 @@ localhost/test_kaffa_felipe_neaime/public
 ##:heavy_check_mark: Exercício 8 - Criar um diagrama de relacionamento - O Script para criação do banco encontra logo após a imagem. O SELECT para consultar quantos produtos existem em uma nota está no final deste tópico
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/diagrama-de-relacionamento.png)
 
-##### Script para criar a base de dados do exericício 8
+##### Script para criar a base de dados do exercício 8
 ```
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
@@ -180,7 +180,7 @@ FROM ordens
 INNER JOIN produtos_has_ordens on produtos_has_ordens.ordens_id=ordens.id GROUP BY id
 ```
 
-##:heavy_check_mark: Exercício 9 - Criar um prototipo de UX
+##:heavy_check_mark: Exercício 9 - Criar um protótipo de UX
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/prototipo-ux.png)
 
 ![](https://github.com/neaime/test_kaffa_felipe_neaime/blob/master/public/img/prototipo-ux.gif)
