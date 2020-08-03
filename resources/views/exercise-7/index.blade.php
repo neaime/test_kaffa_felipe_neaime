@@ -30,14 +30,14 @@
 $(document).ready(function (){
 
     $.ajax({
-        type: "GET",// Set the form submission method
+        type: "GET",
         url: "api/v1/currentDateTime",//Call URL store DB
 
         success: function(response) {
-            document.getElementById("currentDateTime").innerHTML = JSON.stringify(response);//Print Console
+            document.getElementById("currentDateTime").innerHTML = JSON.stringify(response);//Write currentDateTime in div id currentDateTime
         },
         /**
-         ** If you have erro inserted the data, print a return on the console.
+         ** If you have erro inserted the data, print a return on the alert.
         **/
         error: function(error) {
             alert(error)

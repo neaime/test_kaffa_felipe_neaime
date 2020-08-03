@@ -35,17 +35,31 @@ Route::post('/exercise-5/store', 'TodoListController@store')->name('todo.store')
 Route::delete('/exercise-5/destroy/{id}', 'TodoListController@destroy');
 
 /**
+** Routes exercise 6
+**/
+Route::get('/exercise-6', function () {
+    return view('exercise-6.index');
+});
+
+/**
+** Routes exercise 7
+**/
+Route::get('/exercise-7', function () {
+    return view('exercise-7.index');
+});
+
+
+/**
 ** Routes exercise 8
 **/
 Route::get('/exercise-8', function () {
     return view('exercise-8.index');
 });
 
+
+/**
+** Routes exercise 9
+**/
 Route::get('/exercise-9', function () {
     return view('exercise-9.index');
 });
-
-Route::get('/exercise-7', function () {
-    return view('exercise-7.index');
-});
-

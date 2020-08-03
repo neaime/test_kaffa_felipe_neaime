@@ -9,7 +9,7 @@ class CurrentDateTimeController extends Controller
 {
     public function index(){
         $date = [
-            'currentDateTime' => date('Y-m-d').'T'.date('H:i').'Z'
+            'currentDateTime' => date('Y-m-d\TH:i\Z')
         ];
         return response()->json($date);
     }
